@@ -16,31 +16,29 @@ class UsuarioSeeder extends Seeder
     {
         Usuario::insert([
             [
-                'nombre' => "YISUS MUERE",
-                'correo' => 'YISUS_NEL2@gmail.com',
-                'usuario' => "YISUS2",
-                'password' => "123456",
-                'foto' => "Ni ideas :V",
-                'estado' => "TRUE",
-            ],
-
-            [
-                'nombre' => "YISUS MUERE2",
-                'correo' => 'YISUS_NEL3@gmail.com',
-                'usuario' => "YISUS3",
-                'password' => "12345678",
-                'foto' => "Ni ideas :V",
-                'estado' => "TRUE",
-            ],
-
-            [
-                'nombre' => "YISUS MUERE3",
-                'correo' => 'YISUS_NEL4@gmail.com',
-                'usuario' => "YISUS4",
-                'password' => "1234567",
-                'foto' => "Ni ideas :V",
-                'estado' => "TRUE",
-            ],
+                
+                [       "nombre"=>"Jerson Jesus Saavedra Neira",
+                        "correo"=>"jjsn@gmail.com",
+                        "usuario"=>"Jesus",
+                        "password"=>"123456",
+                        "foto"=>"https://www.latercera.com/resizer/1SH0kApRc3U2e5AZyFrsIMC-gFU=/arc-anglerfish-arc2-prod-copesa/public/2IZ6DSSORRHPZKZXABCGPXOMWE.jpg",
+                        "estado"=>"true"
+                ],
+                [       "nombre"=>"Gustavo Enrique Piminchumo Olivos",
+                        "correo"=>"gepo@gmail.com",
+                        "usuario"=>"Gustavo",
+                        "password"=>"123456",
+                        "foto"=>"https://img.europapress.es/fotoweb/fotonoticia_20220720184850_420.jpg",
+                        "estado"=>"true"
+                ],
+                [       "nombre"=>"Juan Carlos Quispe Quispe",
+                        "correo"=>"jsqq@gmail.com",
+                        "usuario"=>"Juan",
+                        "password"=>"123456",
+                        "foto"=>"https://img.europapress.es/fotoweb/fotonoticia_20220228142504_1200.jpg",
+                        "estado"=>"true"
+                ]
+            ]
 
         ]);
     }

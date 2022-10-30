@@ -13,4 +13,12 @@ class UsuarioController extends Controller
         return $Usuario = Usuario::all();
         
     }
+
+    public function store(Request $request)
+    {
+        
+        $UsuarioD = Usuario::create($request->all());
+        return $UsuarioD;
+        
+    }
 }
