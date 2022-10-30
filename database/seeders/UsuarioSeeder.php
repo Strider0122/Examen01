@@ -15,7 +15,7 @@ class UsuarioSeeder extends Seeder
     public function run()
     {
         Usuario::insert([
-            [
+            
                 
                 [       "nombre"=>"Jerson Jesus Saavedra Neira",
                         "correo"=>"jjsn@gmail.com",
@@ -38,7 +38,7 @@ class UsuarioSeeder extends Seeder
                         "foto"=>"https://img.europapress.es/fotoweb/fotonoticia_20220228142504_1200.jpg",
                         "estado"=>"true"
                 ]
-            ]
+            
 
         ]);
     }
